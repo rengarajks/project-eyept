@@ -1,0 +1,61 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        white: "#fff",
+        gray: {
+          100: "#131313",
+          200: "#030014",
+          300: "rgba(255, 255, 255, 0)",
+          400: "rgba(255, 255, 255, 0.48)",
+          500: "rgba(255, 255, 255, 0.08)",
+          600: "rgba(255, 255, 255, 0.8)",
+        },
+        darkslategray: "rgba(46, 55, 74, 0.82)",
+        dimgray: "#57606a",
+        lightslategray: "#8c959f",
+        violet: "#e789e9",
+        black: "#000",
+        whitesmoke: "#f3f3f3",
+        yellowgreen: "#bfd72a",
+      },
+      spacing: {},
+      fontFamily: {
+        kadwa: "Kadwa",
+        poppins: "Poppins",
+        "noto-sans": "'Noto Sans'",
+        lexend: "Lexend",
+        inter: "Inter",
+        rubik: "Rubik",
+        arial: "Arial",
+        roboto: "Roboto",
+      },
+      borderRadius: {
+        "31xl": "50px",
+        "41xl": "60px",
+        "3xs": "10px",
+        "70xl": "89px",
+      },
+    },
+    fontSize: {
+      "101xl": "120px",
+      "61xl": "80px",
+      base: "16px",
+      sm: "14px",
+      "5xl": "24px",
+      "3xs": "10px",
+      smi: "13px",
+      "29xl": "48px",
+      xl: "20px",
+      xs: "12px",
+      mini: "15px",
+      "6xl": "25px",
+      inherit: "inherit",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
